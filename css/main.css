@@ -1,0 +1,155 @@
+body {
+  background-color: #EEEEEE;
+}
+.logo {
+  font-family: 'Cedarville Cursive', cursive;
+  color: pink;
+  padding: 10px;
+}
+
+.lqtext {
+  font-size: 25px;
+  color: black;
+}
+
+.list {
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  display: inline;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  color: white;
+}
+
+/*styles the ul to float right*/
+nav > div > ul {
+  float: right;
+}
+/*styles the li in the nav section*/
+nav > div > ul > li {
+  display: inline;
+  margin: 30px;
+  padding: 5px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid black;
+  width: 95%;
+}
+
+.maintxt {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.name {
+  color: pink;
+}
+
+.subtxt {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.sunset {
+  padding: 5px;
+  width: 100%;
+  border-radius: 15px;
+}
+section.about {
+  position: relative;
+}
+.about h2 {
+  font-family: 'Cedarville Cursive', cursive;
+  padding-left: 200px;
+  color: pink;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+section.mywork {
+  position: relative;
+  bottom: 165px
+}
+.mywork h2 {
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: right;
+  padding-right: 200px;
+  color: pink;
+}
+.worx {
+  float: right;
+  margin: -19px;
+  padding: 20px;
+}
+
+/*styles the gallery!*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 160px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.firstrow {
+  padding-left: 250px;
+  clear: both;
+}
+.desc {
+  font-family: 'Roboto', sans-serif;
+}
+.secondrow {
+  padding-left: 250px;
+  clear: both;
+}
+.foot {
+  background-color: #2D2D2D;
+  width: 100%;
+  height: 500px;
+  clear: both;
+}
+.lstretch {
+  width: 300px;
+}
+.stretch {
+  height: 150px;
+  width: 300px;
+}
+.butt {
+  padding-left: 120px;
+}
+.box {
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+.social {
+  color: white;
+  padding-left: 1000px;
+}
